@@ -1,0 +1,204 @@
+
+
+  
+header {
+         background-color:#333333;
+		 height:85px;
+		 width:100%;
+		 color:white;
+        }
+		
+.headerImage
+{
+    margin-top: 7px;
+	width:250px;
+	height:50px;
+	margin-left: -10px;
+}
+		
+.sidenav {
+  display:none;
+  height: 100%;
+  width: 250;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #333333;
+  overflow-x: 1;
+  transition: 0.1s;
+  font-family:Open sans; 
+  font-size: 1rem; font-weight: 540;font-style: bold;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3ms;
+}
+
+
+.sidenav .closebtn {
+ 
+  top: 0;
+  right: 35px;
+  font-size: 36px;
+ 
+}
+
+.main {
+  float:right;
+  margin-top:10px;
+  margin-right:0; 
+  padding: 20px;
+  background-color:transparent;
+  border:none;
+ 
+}
+
+div.threeline{color:white;font-size:20px;margin-top:-5px;}
+
+/* Style the tab */
+.tab {
+   overflow: hidden;
+   border: none;
+   margin-bottom:3%;
+   margin-top:3%;
+   
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  font-family:Open Sans;
+  font-size: 1.3rem;
+  font-weight:520;
+  border: none;
+  outline : none;
+  flex-grow:1;
+  padding:7px;
+  text-align: center;
+  cursor:pointer;
+  color:gray;
+  background-color:white;
+  }
+
+/* Change background color of buttons on hover*/ 
+.tablinks:hover {color: black;}
+
+.tab button.active {
+  color: black;
+}
+.tabContent
+{
+	z-index: 0;
+	display: none;
+	width: 100%;
+    column-count:3;
+	column-gap: 0.2rem;
+	width:76%;
+	margin: auto;
+}
+.tabContent a.link-1:hover .img-responsive{opacity: 0.5;
+transition-delay: 0.5s; transition-duration: 0.6s;transition: all 350ms ease;}
+
+.img-responsive 
+{
+    width:100%;
+    
+   margin-bottom:1%;
+} 
+
+.flex-container {
+  display: flex;
+  position: relative;
+  
+ }
+
+.overlay {
+  position: absolute;
+  bottom: 8%;
+  margin-left: 5%;
+  overflow: hidden;
+  width: 90%;
+  height: 0;
+  transition: .5s ease-out;
+}
+
+.flex-container:hover .overlay {
+  height: 25%;
+}
+
+.text {
+  font-family: Lato;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+
+footer {
+         margin-top:1px;
+  
+		 background-color:#333333;
+		 padding: 10px;
+         text-align: center;
+         color: white;
+         
+		}	
+ 
+/****MEDIA QUERY****/
+@media only screen and (min-width:2560px){
+.tabContent{margin: auto;}
+.tabButton{font-family:Open Sans;font-size: 1.3rem;font-weight:520;outline: none;list-style: none;flex-grow:1;padding:7px;text-align: center;cursor:pointer;color:gray;} 
+ul li a{font-family:Open sans; color:white;font-size: 1.2rem; font-weight: 540;font-style: bold;}}
+    
+@media only screen and (min-width:1920px){
+.tabContent{column-count:3;column-gap: 0.2rem;margin: 1rem 0; -moz-column-count:3;
+-moz-column-gap: 0.2px;
+-moz-margin: 1rem 0; -webkit-column-count:3;
+-webkit-column-gap: 0.2px;
+-webkit-margin: 1rem 0;}
+.tabContent{width:76%;margin: auto;}
+ 
+.tabButton{font-family:Open Sans;/*font-size: 1.3rem;*/font-weight:520;outline: none;list-style: none;flex-grow:1;padding:7px;text-align: center;cursor:pointer;color:gray;}  
+ul li a{font-family:Open sans; color:white;font-size: 1.2rem; font-weight: 540;font-style: bold;}
+p.cpyrgt{color:white;padding:20px;font-family:Open sans;font-size: 20px;}
+a.web{color:grey;text-decoration:none;font-family:Open sans;font-size:20px;font-weight:545;letter-spacing:2px;}
+p#home{text-align: center;margin-top: 10px;;font-size:17px}
+div.footer{width:100%;height:150px;background-color:#333333;text-align: center;}}
+
+@media only screen and (max-width:1220px){
+.tabContent{column-count: 2;column-gap: 0.2rem;margin: 1rem 0;}
+.tabContent{width:76%;margin: auto;}}
+
+@media only screen and (max-width:650px){
+div.NewLink-2{display: none;}     
+div.NewLink-1{display: block;font-weight: normal;text-align: center;font-size: inherit;} 
+.tab {display: flex;flex-wrap: wrap;margin-top: -25px;}
+.tabButton{font-family:Open Sans; font-size: 1.1rem;font-weight:500;outline: none;list-style: none;flex-grow:1;text-align:center;cursor:pointer;color:gray; margin: -7px;}    
+.tabContent{column-count: 1;column-gap: 0.2rem;margin: 1rem 0;}
+.tabContent{width:76%;margin: auto;}
+header{height: 65px;}  
+header img{margin-top: 7px;width:250px;height:50px;margin-left: -10px;} div.NewLink-2{font-weight: 400;font-family:Open sans;font-size:1.1rem;color:black;}}
+        
+@media only screen and (max-width:480px){
+.tabContent{column-count: 1;column-gap: 0.2rem;margin: 1rem 0;}
+.tabContent{width:76%;margin: auto;}}
+@media only screen and (max-width:320px){
+.tabContent{column-count: 1;column-gap: 0.2rem;margin: 1rem 0 ;}
+
+.tabContent{width:76%;margin: auto;}
+}
+
+</style>
+
+
