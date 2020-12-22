@@ -10,25 +10,30 @@ Tasarlayan:
 Adı Soyadı Ömer GÖZEL
 No: 1030510231
 
-Dosyalar
+<h3>Dosyalar</h3>
 
-Resimler: web sayfasında kullanılan resimler
-anasayfa.html : Html kod sayfası
-mystyle.css: CSS kod sayfası
-aboutMe.html: Kendim hakkında sayfa menu içerisinde bulunmaktadır.
+<h4>Resimler:</h4>
+web sayfasında kullanılan resimler<br>
+<h4>anasayfa.html :</h4> 
+Html kod sayfası <br>
+<h4>mystyle.css: </h4>
+CSS kod sayfası <br>
+<h4>aboutMe.html:</h4>
+Kendim hakkında sayfa.<br> 
+Menu içerisinde bulunmaktadır.<br>
 
-Kullanılan Araçlar
-HTML5
-CSS3
-Bootstrap
-Javascript
+<h4>Kullanılan Araçlar</h4>
+HTML5 <br>
+CSS3<br>
+Bootstrap<br>
+Javascript<br>
 
-Kullanılan Yazılımlar
+<h4>Kullanılan Yazılımlar</h4>
 
-Notepad++
-Opera
+Notepad++ <br>
+Opera<br>
 
-Kullanılan Yöntemler
+<h4>Kullanılan Yöntemler</h4>
 
-Tasarım sistemleri
-Sunucusuz sistemler
+Tasarım sistemleri<br>
+Sunucusuz sistemler<br>
